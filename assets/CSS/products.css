@@ -1,0 +1,133 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+    font-family: sans-serif, serif;
+}
+body, html {
+    display: flex;
+    flex-direction: column;  
+    background-color: #fff;
+}
+header > h1 {
+    text-align: center;
+    font-size: 1.5em;  
+}
+li a:hover{
+    background-color: gainsboro;
+    border-radius: 2px;
+}
+
+header {
+    padding: 2%;
+    margin: 0;
+    height: 100%;
+    width:100%;
+    background-color: rgb(228, 247, 228);
+}
+nav {
+   margin: 20px 0;
+}
+main {
+    padding-bottom: 5%;
+    display: flex;
+    flex-direction: column;
+}
+main > h2 {
+    padding: 1%;
+    margin-left: 5%;
+}
+
+section {
+    display: grid;
+    justify-items: center;
+    gap: 15%;
+    grid-template-columns: repeat(3, 17%);
+    grid-template-rows:  max-content;
+    place-content: center;
+    align-items: start;
+    
+}
+article h2 {
+    margin-top: 5%;
+}
+::-webkit-scrollbar {
+    display: none;
+}
+article.product {
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    align-items: center;
+    text-align: center;
+    padding-top: 5%;
+    gap:10%;
+    min-height: 100%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
+    border-radius: 5px;
+    align-self: start;
+   
+}
+div.product-descriptions {
+    padding: 10px 20px;
+}
+p.price {
+    color: rgb(52, 211, 52);
+}
+main > :nth-child(3) {
+    padding-top: 3%;
+    margin-top: 1%;   
+}
+article h2 {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+img {
+    height: 90%;
+    width: 90%;
+    vertical-align: top;
+    object-fit: contain;
+    object-position: center;
+    border-radius: 5px;
+    cursor: pointer;
+}
+nav ul {
+    display: flex;
+    justify-content: center;
+}
+li {
+    margin: 0 20px;
+    list-style-type: none;
+}
+li a {
+    text-decoration: none;
+    color: rgb(94, 188, 94);
+}
+footer {
+    background-color: rgb(9, 88, 9);
+    padding: 1.5%;
+    text-align: center;
+    height: 10%;
+    margin: 5% 0% 0% 0%;
+    color: #fff;
+}
+/* optional added a media query to it
+
+ */
+ @media (max-width:500px) 
+ {
+    section {
+        display: flex;
+        flex-direction: column;
+        gap: 5%; 
+    }
+    
+    img {
+        height: 20%;
+        width: 30%;
+        object-fit: contain;
+        
+    }
+    
+    
+ }
