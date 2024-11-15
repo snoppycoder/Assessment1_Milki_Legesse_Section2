@@ -23,7 +23,7 @@ header {
     margin: 0;
     height: 100%;
     width:100%;
-    background-color: rgb(228, 247, 228);
+    background-color: #d9eed9;
 }
 nav {
    margin: 20px 0;
@@ -101,10 +101,10 @@ li {
 }
 li a {
     text-decoration: none;
-    color: rgb(94, 188, 94);
+    color: #4CAF50
 }
 footer {
-    background-color: rgb(9, 88, 9);
+    background-color: #124314;
     padding: 1.5%;
     text-align: center;
     height: 10%;
