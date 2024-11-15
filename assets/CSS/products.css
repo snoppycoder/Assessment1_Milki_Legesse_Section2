@@ -119,7 +119,12 @@ footer {
     section {
         display: flex;
         flex-direction: column;
-        gap: 5%; 
+        gap: 7%; 
+
+    }
+    article {
+        margin-top: 5%;
+
     }
     
     img {
@@ -127,6 +132,9 @@ footer {
         width: 30%;
         object-fit: contain;
         
+    }
+    footer {
+        font-size: 10pt;
     }
     
     
